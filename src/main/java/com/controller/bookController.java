@@ -71,4 +71,9 @@ public class bookController {
     public String Return() {
         return "redirect:/book/allBook";
     }
+
+    @RequestMapping("/book/book")
+    public String book(){
+        return "";
+    }
 }
